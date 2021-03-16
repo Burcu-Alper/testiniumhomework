@@ -30,9 +30,11 @@ public class otomasyonSenaryosu {
         System.out.println("Arama kutucuğuna bilgisayar kelimesi girilir");
 
         driver.findElement((By.xpath("//*[@id=\"main-header\"]/div[3]/div/div/div/div[2]/form/div/div[2]/button"))).click();
-        System.out.println("Bul butonu tıklanır");
+        System.out.println("Bul butonu tıklanır.");
         driver.findElement(By.xpath(".//*[@class='pager pt30 hidden-m gg-d-24']/a[2]")).click();
 
+
+        System.out.println("debug");
 
 
     }
